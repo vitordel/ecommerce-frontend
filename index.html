@@ -8,150 +8,149 @@
     <link rel="stylesheet" href="styles.css">
    </head>
 <body>
-    
-    <div class="container">
-        <div class="logo">
-            <img src="jitterbit-logo.png" alt="Logo da Jitterbit">
+  <div class="container">
+    <div class="logo">
+      <img src="jitterbit-logo.png" alt="Logo da Jitterbit">
+    </div>
+    <div class="title">Informações do Cliente</div>
+    <form action="#">
+      <div class="user__details">
+        <div class="input__box">
+          <span class="details">Nome Completo</span>
+          <input type="text" placeholder="Ex: Vitor Delgado" required>
         </div>
-        <div class="title">Informações do Cliente</div>
-        <form action="#">
-          <div class="user__details">
-            <div class="input__box">
-              <span class="details">Nome Completo</span>
-              <input type="text" placeholder="Ex: Vitor Delgado" required>
-            </div>
-            <div class="input__box">
-              <span class="details">Email</span>
-              <input type="email" placeholder="vitor@email.com" required>
-            </div>
-            <div class="input__box">
-              <span class="details">Telefone</span>
-              <input type="phone" placeholder="(11) 98765-4321" required>
-            </div>
-          </div>
-
-          <div class="title">Endereço</div>
-          <div class="address__details">
-            <div class="input__box">
-              <span class="details">Rua e Número</span>
-              <input type="text" placeholder="Ex: Avenida Caxangá, 1000" required>
-            </div>
-            <div class="input__box">
-              <span class="details">Complemento</span>
-              <input type="text" placeholder="Ex: Apto 101">
-            </div>
-            <div class="input__box">
-              <span class="details">Bairro</span>
-              <input type="text" placeholder="Ex: Jardim das Auroras" required>
-            </div>
-            <div class="input__box">
-              <span class="details">Cidade</span>
-              <input type="text" placeholder="Ex: Recife" required>
-            </div>
-            <div class="input__box">
-              <span class="details">Estado</span>
-              <select required>
-                <option value="">Selecione o Estado</option>
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espírito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MS">Mato Grosso do Sul</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-              </select>
-            </div>
-            <div class="input__box">
-              <span class="details">CEP</span>
-              <input type="text" placeholder="Ex: 01234-567" required>
-            </div>
-          </div>
-
-          <div class="title">Detalhes do Pedido</div>
-            <div class="order__details">
-                <div class="input__box">
-                    <span class="details">Id Produto</span>
-                    <select required>
-                        <option value="">Selecione o Produto</option>
-                        <option value="1">Produto A</option>
-                        <option value="2">Produto B</option>
-                        <option value="3">Produto C</option>
-                        <option value="4">Produto D</option>
-                        <option value="5">Produto E</option>
-                    </select>
-                </div>
-                <div class="input__box">
-                    <span class="details">Quantidade</span>
-                    <input type="number" placeholder="Quantidade" required>
-                 </div>
-            </div>
-          <div class="metodo__details">
-            <input type="radio" name="metodo" id="dot-1">
-            <input type="radio" name="metodo" id="dot-2">
-            <input type="radio" name="metodo" id="dot-3">
-            <span class="metodo__title">Método de Pagamento</span>
-            <div class="category">
-              <label for="dot-1">
-                <span class="dot one"></span>
-                <span>Cartão de Crédito</span>
-              </label>
-              <label for="dot-2">
-                <span class="dot two"></span>
-                <span>Boleto Bancário</span>
-              </label>
-              <label for="dot-3">
-                <span class="dot three"></span>
-                <span>PayPal</span>
-              </label>
-            </div>
-          </div>
-          <div class="buttons">
-            <input type="submit" value="Enviar Pedido">
-            <input type="reset" value="Limpar Formulário">
+        <div class="input__box">
+          <span class="details">Email</span>
+          <input type="email" placeholder="vitor@email.com" required>
         </div>
-        </form>
+        <div class="input__box">
+          <span class="details">Telefone</span>
+          <input type="phone" placeholder="(11) 98765-4321" required>
+        </div>
       </div>
 
-      <footer>
-        <div class="footer-content">
-            <div class="contact-info">
-                <h4>Contato</h4>
-                <p>Av. Paulista, 1000, Centro, São Paulo</p>
-                <p>(11) 98765-4321</p>
-                <p>contato@email.com</p>
-            </div>
-            <div class="social-links">
-                <h4>Redes Sociais</h4>
-                <ul>
-                    <a href="https://www.facebook.com">Facebook</a>
-                    - <a href="https://www.twitter.com">Twitter</a>
-                    - <a href="https://www.instagram.com">Instagram</a>
-                </ul>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2024 Jitterbit. Todos os direitos reservados.</p>
-            </div>
+      <div class="title">Endereço</div>
+      <div class="address__details">
+        <div class="input__box">
+          <span class="details">Rua e Número</span>
+          <input type="text" placeholder="Ex: Avenida Caxangá, 1000" required>
         </div>
-    </footer>
+        <div class="input__box">
+          <span class="details">Complemento</span>
+          <input type="text" placeholder="Ex: Apto 101">
+        </div>
+        <div class="input__box">
+          <span class="details">Bairro</span>
+          <input type="text" placeholder="Ex: Jardim das Auroras" required>
+        </div>
+        <div class="input__box">
+          <span class="details">Cidade</span>
+          <input type="text" placeholder="Ex: Recife" required>
+        </div>
+        <div class="input__box">
+          <span class="details">Estado</span>
+          <select required>
+            <option value="">Selecione o Estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+        <div class="input__box">
+          <span class="details">CEP</span>
+          <input type="text" placeholder="Ex: 01234-567" required>
+        </div>
+      </div>
+
+      <div class="title">Detalhes do Pedido</div>
+      <div class="order__details">
+        <div class="input__box">
+          <span class="details">Id Produto</span>
+          <select required>
+            <option value="">Selecione o Produto</option>
+            <option value="1">Produto A</option>
+            <option value="2">Produto B</option>
+            <option value="3">Produto C</option>
+            <option value="4">Produto D</option>
+            <option value="5">Produto E</option>
+          </select>
+        </div>
+        <div class="input__box">
+          <span class="details">Quantidade</span>
+          <input type="number" placeholder="Quantidade" required>
+        </div>
+      </div>
+      <div class="metodo__details">
+        <input type="radio" name="metodo" id="dot-1">
+        <input type="radio" name="metodo" id="dot-2">
+        <input type="radio" name="metodo" id="dot-3">
+        <span class="metodo__title">Método de Pagamento</span>
+        <div class="category">
+          <label for="dot-1">
+            <span class="dot one"></span>
+            <span>Cartão de Crédito</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span>Boleto Bancário</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span>PayPal</span>
+          </label>
+        </div>
+      </div>
+      <div class="buttons">
+        <input type="submit" value="Enviar Pedido">
+        <input type="reset" value="Limpar Formulário">
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h4>Contato</h4>
+        <p>Av. Paulista, 1000, Centro, São Paulo</p>
+        <p>(11) 98765-4321</p>
+        <p>contato@email.com</p>
+      </div>
+      <div class="social-links">
+        <h4>Redes Sociais</h4>
+        <ul>
+          <a href="https://www.facebook.com">Facebook</a>
+            - <a href="https://www.twitter.com">Twitter</a>
+            - <a href="https://www.instagram.com">Instagram</a>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Jitterbit. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
